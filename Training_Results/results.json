@@ -1,0 +1,76 @@
+[
+    {
+        "DescriptionL: ": "Logistic regression with default parameters and minmax scale on data only",
+        "Type": "Training Results",
+        "confusion_matrix": {
+            "TN": 170560,
+            "FP": 19,
+            "FN": 141,
+            "TP": 164
+        },
+        "metrics_report": {
+            "0": {
+                "precision": 0.9991739942941166,
+                "recall": 0.9998886146594833,
+                "f1-score": 0.9995311767463666,
+                "support": 170579.0
+            },
+            "1": {
+                "precision": 0.8961748633879781,
+                "recall": 0.5377049180327869,
+                "f1-score": 0.6721311475409836,
+                "support": 305.0
+            },
+            "accuracy": 0.9990636923292994,
+            "macro avg": {
+                "precision": 0.9476744288410474,
+                "recall": 0.768796766346135,
+                "f1-score": 0.8358311621436751,
+                "support": 170884.0
+            },
+            "weighted avg": {
+                "precision": 0.9989901576860879,
+                "recall": 0.9990636923292994,
+                "f1-score": 0.9989468212250325,
+                "support": 170884.0
+            }
+        }
+    },
+    {
+        "Type": "Validation Results",
+        "confusion_matrix": {
+            "TN": 56863,
+            "FP": 7,
+            "FN": 38,
+            "TP": 52
+        },
+        "metrics_report": {
+            "0": {
+                "precision": 0.9993321734240171,
+                "recall": 0.9998769122560225,
+                "f1-score": 0.9996044686255724,
+                "support": 56870.0
+            },
+            "1": {
+                "precision": 0.8813559322033898,
+                "recall": 0.5777777777777777,
+                "f1-score": 0.697986577181208,
+                "support": 90.0
+            },
+            "accuracy": 0.9992099719101124,
+            "macro avg": {
+                "precision": 0.9403440528137035,
+                "recall": 0.7888273450169001,
+                "f1-score": 0.8487955229033902,
+                "support": 56960.0
+            },
+            "weighted avg": {
+                "precision": 0.9991457643350099,
+                "recall": 0.9992099719101124,
+                "f1-score": 0.9991278954122649,
+                "support": 56960.0
+            }
+        }
+    },
+    "_______________________________________"
+]
