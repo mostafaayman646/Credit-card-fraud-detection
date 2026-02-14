@@ -77,35 +77,35 @@
         "DescriptionL: ": "Using voting classifier between random forrest and nn and logistic regression and minmax scale on data only",
         "Type": "Training Results",
         "confusion_matrix": {
-            "TN": 170559,
-            "FP": 20,
-            "FN": 125,
-            "TP": 180
+            "TN": 170565,
+            "FP": 14,
+            "FN": 83,
+            "TP": 222
         },
         "metrics_report": {
             "0": {
-                "precision": 0.9992676525040426,
-                "recall": 0.9998827522731403,
-                "f1-score": 0.9995751077614625,
+                "precision": 0.9995136186770428,
+                "recall": 0.9999179265911982,
+                "f1-score": 0.9997157317562796,
                 "support": 170579.0
             },
             "1": {
-                "precision": 0.9,
-                "recall": 0.5901639344262295,
-                "f1-score": 0.7128712871287128,
+                "precision": 0.940677966101695,
+                "recall": 0.7278688524590164,
+                "f1-score": 0.8207024029574861,
                 "support": 305.0
             },
-            "accuracy": 0.9991514711734276,
+            "accuracy": 0.9994323634746378,
             "macro avg": {
-                "precision": 0.9496338262520213,
-                "recall": 0.7950233433496849,
-                "f1-score": 0.8562231974450877,
+                "precision": 0.9700957923893689,
+                "recall": 0.8638933895251073,
+                "f1-score": 0.9102090673568828,
                 "support": 170884.0
             },
             "weighted avg": {
-                "precision": 0.9990904759748549,
-                "recall": 0.9991514711734276,
-                "f1-score": 0.9990633883184897,
+                "precision": 0.9994086066569854,
+                "recall": 0.9994323634746378,
+                "f1-score": 0.9993962222335411,
                 "support": 170884.0
             }
         }
@@ -115,33 +115,33 @@
         "confusion_matrix": {
             "TN": 56863,
             "FP": 7,
-            "FN": 33,
-            "TP": 57
+            "FN": 26,
+            "TP": 64
         },
         "metrics_report": {
             "0": {
-                "precision": 0.9994199943757031,
+                "precision": 0.9995429696426374,
                 "recall": 0.9998769122560225,
-                "f1-score": 0.9996484011040205,
+                "f1-score": 0.9997099130618237,
                 "support": 56870.0
             },
             "1": {
-                "precision": 0.890625,
-                "recall": 0.6333333333333333,
-                "f1-score": 0.7402597402597403,
+                "precision": 0.9014084507042254,
+                "recall": 0.7111111111111111,
+                "f1-score": 0.7950310559006211,
                 "support": 90.0
             },
-            "accuracy": 0.9992977528089888,
+            "accuracy": 0.9994206460674158,
             "macro avg": {
-                "precision": 0.9450224971878516,
-                "recall": 0.8166051227946779,
-                "f1-score": 0.8699540706818805,
+                "precision": 0.9504757101734314,
+                "recall": 0.8554940116835668,
+                "f1-score": 0.8973704844812224,
                 "support": 56960.0
             },
             "weighted avg": {
-                "precision": 0.9992480921725111,
-                "recall": 0.9992977528089888,
-                "f1-score": 0.9992385524474899,
+                "precision": 0.9993879115895397,
+                "recall": 0.9994206460674158,
+                "f1-score": 0.9993865089686967,
                 "support": 56960.0
             }
         }

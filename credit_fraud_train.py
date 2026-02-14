@@ -13,18 +13,18 @@ SEED = 17
 def train(X_train,t_train,X_val,add_intercept):
     #Initialize models
     lr = LogisticRegression(solver='lbfgs',random_state=SEED,fit_intercept=add_intercept)
-    rfc = RandomForestClassifier(n_estimators=6,max_depth=3)
+    rfc = RandomForestClassifier(n_estimators=50,max_depth=10)
     nn = MLPClassifier(random_state=SEED,max_iter=300)
     
     #Voting
     vcf = VotingClassifier([
         ('lr',lr),('rfc',rfc),('nn',nn)
-    ],voting='soft')
+    ],voting='soft',weights=[1,2,1])
     
     pip = Pipeline([
         ('Poly',PolynomialFeatures(degree=1,include_bias=add_intercept)),
         ('Scaler',MinMaxScaler()),
-        ('Voting',vcf)
+        ('vcf',vcf)
     ],)
 
     pip.fit(X_train,t_train)
