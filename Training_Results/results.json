@@ -146,5 +146,301 @@
             }
         }
     },
+    "_______________________________________",
+    {
+        "DescriptionL: ": "Using voting classifier between random forrest and nn and logistic regression and minmax scale on data and also undersampling using RandomUnderSampling",
+        "Type": "Training Results",
+        "confusion_matrix": {
+            "TN": 30495,
+            "FP": 5,
+            "FN": 61,
+            "TP": 244
+        },
+        "metrics_report": {
+            "0": {
+                "precision": 0.9980036654012305,
+                "recall": 0.9998360655737705,
+                "f1-score": 0.9989190251572327,
+                "support": 30500.0
+            },
+            "1": {
+                "precision": 0.9799196787148594,
+                "recall": 0.8,
+                "f1-score": 0.8808664259927798,
+                "support": 305.0
+            },
+            "accuracy": 0.9978574906670995,
+            "macro avg": {
+                "precision": 0.988961672058045,
+                "recall": 0.8999180327868852,
+                "f1-score": 0.9398927255750062,
+                "support": 30805.0
+            },
+            "weighted avg": {
+                "precision": 0.9978246160280981,
+                "recall": 0.9978574906670995,
+                "f1-score": 0.9977501875417432,
+                "support": 30805.0
+            }
+        }
+    },
+    {
+        "Type": "Validation Results",
+        "confusion_matrix": {
+            "TN": 56857,
+            "FP": 13,
+            "FN": 19,
+            "TP": 71
+        },
+        "metrics_report": {
+            "0": {
+                "precision": 0.9996659399395176,
+                "recall": 0.9997714084754704,
+                "f1-score": 0.9997186714258084,
+                "support": 56870.0
+            },
+            "1": {
+                "precision": 0.8452380952380952,
+                "recall": 0.7888888888888889,
+                "f1-score": 0.8160919540229885,
+                "support": 90.0
+            },
+            "accuracy": 0.999438202247191,
+            "macro avg": {
+                "precision": 0.9224520175888065,
+                "recall": 0.8943301486821796,
+                "f1-score": 0.9079053127243985,
+                "support": 56960.0
+            },
+            "weighted avg": {
+                "precision": 0.9994219352691677,
+                "recall": 0.999438202247191,
+                "f1-score": 0.9994285308962043,
+                "support": 56960.0
+            }
+        }
+    },
+    "_______________________________________",
+    {
+        "DescriptionL: ": "Using voting classifier between random forrest and logistic regression and minmax scale on data and also OverSampling using SMOTE",
+        "Type": "Training Results",
+        "confusion_matrix": {
+            "TN": 170560,
+            "FP": 19,
+            "FN": 364,
+            "TP": 2686
+        },
+        "metrics_report": {
+            "0": {
+                "precision": 0.9978703985397018,
+                "recall": 0.9998886146594833,
+                "f1-score": 0.9988784871582387,
+                "support": 170579.0
+            },
+            "1": {
+                "precision": 0.9929759704251386,
+                "recall": 0.880655737704918,
+                "f1-score": 0.9334491746307558,
+                "support": 3050.0
+            },
+            "accuracy": 0.9977941472910631,
+            "macro avg": {
+                "precision": 0.9954231844824202,
+                "recall": 0.9402721761822006,
+                "f1-score": 0.9661638308944973,
+                "support": 173629.0
+            },
+            "weighted avg": {
+                "precision": 0.997784422085599,
+                "recall": 0.9977941472910631,
+                "f1-score": 0.9977291434241343,
+                "support": 173629.0
+            }
+        }
+    },
+    {
+        "Type": "Validation Results",
+        "confusion_matrix": {
+            "TN": 56859,
+            "FP": 11,
+            "FN": 16,
+            "TP": 74
+        },
+        "metrics_report": {
+            "0": {
+                "precision": 0.9997186813186814,
+                "recall": 0.9998065764023211,
+                "f1-score": 0.9997626269286563,
+                "support": 56870.0
+            },
+            "1": {
+                "precision": 0.8705882352941177,
+                "recall": 0.8222222222222222,
+                "f1-score": 0.8457142857142858,
+                "support": 90.0
+            },
+            "accuracy": 0.9995259831460674,
+            "macro avg": {
+                "precision": 0.9351534583063995,
+                "recall": 0.9110143993122717,
+                "f1-score": 0.922738456321471,
+                "support": 56960.0
+            },
+            "weighted avg": {
+                "precision": 0.9995146479594431,
+                "recall": 0.9995259831460674,
+                "f1-score": 0.9995192218951364,
+                "support": 56960.0
+            }
+        }
+    },
+    "_______________________________________",
+    {
+        "DescriptionL: ": "Using voting classifier between random forrest and logistic regression and minmax scale on data and also UnderSampling using NearMiss",
+        "Type": "Training Results",
+        "confusion_matrix": {
+            "TN": 152496,
+            "FP": 4,
+            "FN": 63,
+            "TP": 242
+        },
+        "metrics_report": {
+            "0": {
+                "precision": 0.9995870450120937,
+                "recall": 0.9999737704918032,
+                "f1-score": 0.9997803703545871,
+                "support": 152500.0
+            },
+            "1": {
+                "precision": 0.983739837398374,
+                "recall": 0.7934426229508197,
+                "f1-score": 0.8784029038112523,
+                "support": 305.0
+            },
+            "accuracy": 0.9995615326723601,
+            "macro avg": {
+                "precision": 0.9916634412052339,
+                "recall": 0.8967081967213115,
+                "f1-score": 0.9390916370829197,
+                "support": 152805.0
+            },
+            "weighted avg": {
+                "precision": 0.999555413859172,
+                "recall": 0.9995615326723601,
+                "f1-score": 0.999538099962285,
+                "support": 152805.0
+            }
+        }
+    },
+    {
+        "Type": "Validation Results",
+        "confusion_matrix": {
+            "TN": 56866,
+            "FP": 4,
+            "FN": 24,
+            "TP": 66
+        },
+        "metrics_report": {
+            "0": {
+                "precision": 0.9995781332395851,
+                "recall": 0.9999296641462986,
+                "f1-score": 0.9997538677918425,
+                "support": 56870.0
+            },
+            "1": {
+                "precision": 0.9428571428571428,
+                "recall": 0.7333333333333333,
+                "f1-score": 0.825,
+                "support": 90.0
+            },
+            "accuracy": 0.9995084269662922,
+            "macro avg": {
+                "precision": 0.9712176380483639,
+                "recall": 0.8666314987398159,
+                "f1-score": 0.9123769338959212,
+                "support": 56960.0
+            },
+            "weighted avg": {
+                "precision": 0.9994885108882084,
+                "recall": 0.9995084269662922,
+                "f1-score": 0.9994777468630983,
+                "support": 56960.0
+            }
+        }
+    },
+    "_______________________________________",
+    {
+        "DescriptionL: ": "Using voting classifier between random forrest and logistic regression and minmax scale on data and also OverSampling using RandomOverSampling",
+        "Type": "Training Results",
+        "confusion_matrix": {
+            "TN": 170563,
+            "FP": 16,
+            "FN": 503,
+            "TP": 2547
+        },
+        "metrics_report": {
+            "0": {
+                "precision": 0.9970596144178271,
+                "recall": 0.9999062018185122,
+                "f1-score": 0.9984808792752711,
+                "support": 170579.0
+            },
+            "1": {
+                "precision": 0.9937573156457277,
+                "recall": 0.8350819672131148,
+                "f1-score": 0.9075360769641903,
+                "support": 3050.0
+            },
+            "accuracy": 0.9970108680001613,
+            "macro avg": {
+                "precision": 0.9954084650317774,
+                "recall": 0.9174940845158135,
+                "f1-score": 0.9530084781197307,
+                "support": 173629.0
+            },
+            "weighted avg": {
+                "precision": 0.9970016056102264,
+                "recall": 0.9970108680001613,
+                "f1-score": 0.9968833256002007,
+                "support": 173629.0
+            }
+        }
+    },
+    {
+        "Type": "Validation Results",
+        "confusion_matrix": {
+            "TN": 56862,
+            "FP": 8,
+            "FN": 19,
+            "TP": 71
+        },
+        "metrics_report": {
+            "0": {
+                "precision": 0.9996659693043372,
+                "recall": 0.9998593282925972,
+                "f1-score": 0.9997626394493235,
+                "support": 56870.0
+            },
+            "1": {
+                "precision": 0.8987341772151899,
+                "recall": 0.7888888888888889,
+                "f1-score": 0.8402366863905325,
+                "support": 90.0
+            },
+            "accuracy": 0.9995259831460674,
+            "macro avg": {
+                "precision": 0.9492000732597635,
+                "recall": 0.8943741085907431,
+                "f1-score": 0.9199996629199281,
+                "support": 56960.0
+            },
+            "weighted avg": {
+                "precision": 0.9995064914025109,
+                "recall": 0.9995259831460674,
+                "f1-score": 0.9995105794813585,
+                "support": 56960.0
+            }
+        }
+    },
     "_______________________________________"
 ]
