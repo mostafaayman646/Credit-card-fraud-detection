@@ -4,7 +4,7 @@ import json,os
 
 def evaluate(t_train,y_train,t_val,y_val,description = None,save_results = False):
     cm = confusion_matrix(t_train,y_train)
-    cr_train = classification_report(t_train,y_train,output_dict=True)
+    cr_train = classification_report(t_train,y_train,output_dict=save_results)
 
     tn_train,fp_train,fn_train,tp_train = cm.ravel()
 
@@ -27,7 +27,7 @@ def evaluate(t_train,y_train,t_val,y_val,description = None,save_results = False
         }
 
     cm = confusion_matrix(t_val,y_val)
-    cr_val = classification_report(t_val,y_val,output_dict=True)
+    cr_val = classification_report(t_val,y_val,output_dict=save_results)
 
     tn_val,fp_val,fn_val,tp_val = cm.ravel()
 
